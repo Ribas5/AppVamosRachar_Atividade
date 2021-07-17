@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/layout"
-        android:layout_width="93dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="250dp"
+        android:layout_width="66dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="100dp"
         android:scaleType="centerInside"
         android:scaleX="0.5"
         android:scaleY="0.5"
@@ -22,9 +22,9 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="91dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="250dp"
+        android:layout_width="63dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="100dp"
         android:scaleX="0.5"
         android:scaleY="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,8 +124,8 @@
 
     <EditText
         android:id="@+id/editResult"
-        android:layout_width="167dp"
-        android:layout_height="86dp"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:fontFamily="@font/alfa_slab_one"
         android:inputType="textPersonName"
