@@ -17,6 +17,7 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity implements TextWatcher, View.OnClickListener,TextToSpeech.OnInitListener{
 
@@ -85,11 +86,11 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
         try {
             double res = Double.parseDouble(editValor.getText().toString());
             res= (res/ Double.parseDouble(editGrupo.getText().toString()));
-            DecimalFormat df = new DecimalFormat("#.00");
-            tvRes.setText("R$ "+ df.format(res) );
+            NumberFormat nf = NumberFormat.getCurrencyInstance();
+            tvRes.setText(nf.format(res) );
 
         }catch (Exception e){
-            tvRes.setText("R$ 0,00");
+            tvRes.setText("0,00");
         }
 
 

@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/layout"
+        android:id="@+id/iconeDinheiro"
         android:layout_width="93dp"
         android:layout_height="86dp"
         android:layout_marginTop="10dp"
@@ -17,25 +17,26 @@
         app:layout_constraintEnd_toStartOf="@+id/editValor"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/rachar"
         app:srcCompat="@drawable/cashicon" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/iconePessoas"
         android:layout_width="91dp"
         android:layout_height="84dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toStartOf="@+id/editGrupo"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout"
+        app:layout_constraintTop_toBottomOf="@+id/iconeDinheiro"
         app:srcCompat="@drawable/groupiic" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/vamos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:contentDescription="Palavras vamos referente ao titulo da aplicação"
         android:fontFamily="@font/alfa_slab_one"
         android:text="VAMOS"
         android:textColor="#F4F4F4"
@@ -45,17 +46,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/rachar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
+        android:contentDescription="palavra rac"
         android:fontFamily="@font/alfa_slab_one"
         android:text="RACHAR!"
         android:textColor="#F6F6F6"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/vamos" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btShare"
@@ -99,10 +101,10 @@
         android:textColor="#FAFAFA"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/layout"
+        app:layout_constraintBottom_toBottomOf="@+id/iconeDinheiro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/layout" />
+        app:layout_constraintStart_toEndOf="@+id/iconeDinheiro" />
 
     <EditText
         android:id="@+id/editGrupo"
@@ -114,10 +116,10 @@
         android:textColor="#F6F6F6"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="@+id/iconePessoas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4" />
+        app:layout_constraintStart_toEndOf="@+id/iconePessoas" />
 
     <EditText
         android:id="@+id/editResult"

@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/layout"
+        android:id="@+id/iconeDinheiro"
         android:layout_width="66dp"
         android:layout_height="63dp"
         android:layout_marginStart="100dp"
@@ -17,22 +17,22 @@
         android:scaleY="0.5"
         android:scrollbarSize="3dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/rachar"
         app:srcCompat="@drawable/cashicon" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/iconePessoas"
         android:layout_width="63dp"
         android:layout_height="68dp"
         android:layout_marginStart="100dp"
         android:scaleX="0.5"
         android:scaleY="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout"
+        app:layout_constraintTop_toBottomOf="@+id/iconeDinheiro"
         app:srcCompat="@drawable/groupiic" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/vamos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/rachar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/alfa_slab_one"
@@ -54,7 +54,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/vamos" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btShare"
@@ -102,9 +102,9 @@
         android:textColor="#FAFAFA"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/layout"
+        app:layout_constraintBottom_toBottomOf="@+id/iconeDinheiro"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/layout" />
+        app:layout_constraintStart_toEndOf="@+id/iconeDinheiro" />
 
     <EditText
         android:id="@+id/editGrupo"
@@ -117,10 +117,10 @@
         android:textColor="#F6F6F6"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="@+id/iconePessoas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4" />
+        app:layout_constraintStart_toEndOf="@+id/iconePessoas" />
 
     <EditText
         android:id="@+id/editResult"
