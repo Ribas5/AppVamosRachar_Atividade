@@ -21,7 +21,8 @@
         app:layout_constraintStart_toEndOf="@+id/btShare"
         app:maxImageSize="35dp"
         app:srcCompat="@drawable/soundicon"
-        tools:layout_editor_absoluteY="1344dp" />
+        tools:layout_editor_absoluteY="1344dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btShare"
@@ -61,7 +62,6 @@
         android:id="@+id/editValor"
         android:layout_width="188dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:scaleX="2"
@@ -79,7 +79,6 @@
         android:id="@+id/editGrupo"
         android:layout_width="191dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:scaleX="2"
