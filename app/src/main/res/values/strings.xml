@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">VamosRacharRibamar</string>
-    <string name="iconeDinheiro"> Imagem de uma mão pegando moedas</string>
+    <string name="iconeDinheiro"> Icone de uma mão pegando moedas</string>
+    <string name="iconePessoas"> Icone da silhueta de duas pessoas </string>
+    <string name="editValor"> Campo de texto para inserir o valor total da conta </string>
+    <string name="editGrupo"> Campo de texto para inserir o numero de pessoas que vão dividir a conta </string>
+    <string name="editResult"> resultado da conta dividida </string>
+    <string name="btShare"> botão com icone de compartilhar </string>
+    <string name="btTocar"> botão com icone de megafone </string>
 </resources>

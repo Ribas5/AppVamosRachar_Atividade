@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VamosRacharRibamar</string>
-    <string name="iconeDinheiro"> Imagem de uma mão pegando moedas</string>
+    <string name="iconeDinheiro"> Icon of a hand picking up coins</string>
+    <string name="iconePessoas"> Two people silhouette icon </string>
+    <string name="editValor"> Text field to enter the total amount of the bill </string>
+    <string name="editGrupo"> Text field to enter the number of people who will split the account </string>
+    <string name="editResult"> split account result </string>
+    <string name="btShare"> button with share icon </string>
+    <string name="btTocar"> button with megaphone icon </string>
 </resources>

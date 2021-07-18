@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E38BA"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btTocar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleX="3"
+        android:scaleY="3"
+        app:backgroundTint="#AA7CEC"
+        app:fabCustomSize="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btShare"
+        app:maxImageSize="35dp"
+        app:srcCompat="@drawable/soundicon"
+        tools:layout_editor_absoluteY="1344dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleX="3"
+        android:scaleY="3"
+        app:backgroundTint="#AA7CEC"
+        app:fabCustomSize="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btTocar"
+        app:layout_constraintEnd_toStartOf="@+id/btTocar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:maxImageSize="35dp"
+        app:rippleColor="#FBF8F8"
+        app:srcCompat="@drawable/shareicon" />
+
+    <TextView
+        android:id="@+id/vamos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:contentDescription="Palavras vamos referente ao titulo da aplicação"
+        android:fontFamily="@font/alfa_slab_one"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:text="VAMOS"
+        android:textColor="#F4F4F4"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editValor"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="0"
+        android:textColor="#FAFAFA"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/iconeDinheiro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iconeDinheiro" />
+
+    <EditText
+        android:id="@+id/editGrupo"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="2"
+        android:textColor="#F6F6F6"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/iconePessoas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iconePessoas" />
+
+    <EditText
+        android:id="@+id/editResult"
+        android:layout_width="266dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:inputType="textPersonName"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="R$ 0,00"
+        android:textColor="#F3F3F3"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editGrupo" />
+
+    <TextView
+        android:id="@+id/rachar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:contentDescription="palavra rac"
+        android:fontFamily="@font/alfa_slab_one"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:text="RACHAR!"
+        android:textColor="#F6F6F6"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vamos" />
+
+    <ImageView
+        android:id="@+id/iconePessoas"
+        android:layout_width="91dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="148dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toStartOf="@+id/editGrupo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconeDinheiro"
+        app:srcCompat="@drawable/groupiic" />
+
+    <ImageView
+        android:id="@+id/iconeDinheiro"
+        android:layout_width="93dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="160dp"
+        android:scaleType="centerInside"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:scrollbarSize="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/editValor"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rachar"
+        app:srcCompat="@drawable/cashicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
