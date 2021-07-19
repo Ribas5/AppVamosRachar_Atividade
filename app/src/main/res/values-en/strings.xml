@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LetsSplitRibamar</string>
+    <string name="app_name">Lets Split Ribamar</string>
+    <string name="vamosRachar">Lets\nSplit!</string>
+    <string name="moeda">U$ 0.00</string>
+    <string name="vamosRacharLand">Lets Split!</string>
     <string name="iconeDinheiro"> Icon of a hand picking up coins</string>
     <string name="iconePessoas"> Two people silhouette icon </string>
     <string name="editValor"> Text field to enter the total amount of the bill </string>

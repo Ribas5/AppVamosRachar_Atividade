@@ -32,32 +32,18 @@
         app:srcCompat="@drawable/groupiic" />
 
     <TextView
-        android:id="@+id/vamos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:contentDescription="Palavras vamos referente ao titulo da aplicação"
-        android:fontFamily="@font/alfa_slab_one"
-        android:text="VAMOS"
-        android:textColor="#F4F4F4"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/rachar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="72dp"
         android:contentDescription="palavra rac"
         android:fontFamily="@font/alfa_slab_one"
-        android:text="RACHAR!"
+        android:text="@string/vamosRachar"
         android:textColor="#F6F6F6"
-        android:textSize="20sp"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vamos" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btShare"
@@ -129,7 +115,7 @@
         android:ems="10"
         android:fontFamily="@font/alfa_slab_one"
         android:inputType="textPersonName"
-        android:text="R$ 0,00"
+        android:text="@string/moeda"
         android:textColor="#F3F3F3"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

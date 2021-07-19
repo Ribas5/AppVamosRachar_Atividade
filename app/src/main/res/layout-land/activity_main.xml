@@ -9,52 +9,38 @@
 
     <ImageView
         android:id="@+id/iconeDinheiro"
-        android:layout_width="66dp"
-        android:layout_height="63dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="100dp"
         android:scaleType="centerInside"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
         android:scrollbarSize="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/editValor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rachar"
         app:srcCompat="@drawable/cashicon" />
 
     <ImageView
         android:id="@+id/iconePessoas"
-        android:layout_width="63dp"
-        android:layout_height="68dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="100dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
+        app:layout_constraintEnd_toStartOf="@+id/editGrupo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iconeDinheiro"
         app:srcCompat="@drawable/groupiic" />
 
     <TextView
-        android:id="@+id/vamos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/alfa_slab_one"
-        android:text="VAMOS"
-        android:textColor="#F4F4F4"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/rachar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/alfa_slab_one"
-        android:text="RACHAR!"
+        android:text="@string/vamosRacharLand"
         android:textColor="#F6F6F6"
-        android:textSize="20sp"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vamos" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btShare"
@@ -131,7 +117,7 @@
         android:inputType="textPersonName"
         android:scaleX="0.7"
         android:scaleY="0.7"
-        android:text="R$ 0,00"
+        android:text="@string/moeda"
         android:textColor="#F3F3F3"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
